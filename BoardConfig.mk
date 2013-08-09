@@ -17,7 +17,7 @@ TARGET_BOOTLOADER_BOARD_NAME := raybst
 BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom user_debug=31
 BOARD_KERNEL_BASE := 0x00400000
 BOARD_KERNEL_PAGESIZE := 4096
-CMDLINE_ARGS := --ramdisk_address 0x01300000
+CMDLINE_ARGS := --ramdisk_address 0x01700000
 
 # fix this up by examining /proc/mtd on a running device
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x105c0000
